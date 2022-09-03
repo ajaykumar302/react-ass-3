@@ -1,0 +1,56 @@
+body{
+    background-image:linear-gradient(pink,rgb(175, 175, 246),yellow,green) ;
+    background-repeat:no-repeat ;
+    height: 100vh;
+    width: 100%;
+  }
+  .container{
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }
+  .lab{
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .text{
+    border: 2px solid black;
+    height: 50px ;
+    width: 20%;
+    border-radius: 25px;
+    background-color: rgb(173, 173, 250);
+    color: rgb(247, 242, 242);
+    font-size: larger;
+  }
+  .button{
+    font-size: x-large;
+    background-color: rgb(178, 178, 249);
+    border: 2px solid black;
+    height: 50px ;
+    width: 20%;
+    border-radius: 25px;
+  }
+  .button:hover{
+    background-color: aqua;
+  }
+  .box{
+    background-color: rgb(91, 161, 91);
+    margin: 50px;
+    margin-left: 60px;
+    padding: 15px;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+    border-radius: 20px;
+  }
+  .showDetails{
+   background-color: aquamarine;
+   padding: 20px;
+   margin: 15px;
+   width: fit-content;
+   border-radius: 15px;
+   display: block;
+  }
